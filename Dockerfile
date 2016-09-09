@@ -1,6 +1,6 @@
-# Node Env - an environment built on the base-env image that includes
+# Node Env - an environment built on the openjdk image that includes
 # Node.js 4.5 and NPM 2.15.9
-FROM danielmaple/base-env:latest
+FROM openjdk
 MAINTAINER Daniel Maple <danielm@ibcos.co.uk>
 
 ## Install node.js
